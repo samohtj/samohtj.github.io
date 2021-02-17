@@ -1,0 +1,66 @@
+body {
+    margin : 0 auto;
+    max-width: 50em;
+    font-family: "Georgia";
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #333;
+    background-color: rgb(224, 210, 163);
+}
+
+h1,
+h2,
+strong {
+    color: #333;
+}
+
+h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+code,
+pre {
+  background: #eee;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+    color: #e81c4f;
+}
+
+nav {
+    width: 50em;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: table;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    /*border: solid #f00;
+    border-width: 1px; */
+}
+
+nav li:hover {
+    background-color: #eee;
+}
